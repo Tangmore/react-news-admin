@@ -1,0 +1,30 @@
+// dialog
+.dialog-content{
+  overflow-y: auto;
+  height: 100%;
+  box-sizing: border-box;
+  form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    .ant-form-item-label{
+      width: 80px;
+      text-align: right;
+    }
+    &::after{
+      content: '';
+      width: 220px;
+      display: inline-block;
+    }
+  }
+}
+.dialog-footer-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    > :not(:first-child) {
+      margin-left: 10px;
+    }
+  }

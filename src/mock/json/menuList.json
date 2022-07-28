@@ -1,0 +1,126 @@
+{
+  "result": "success",
+  "data": [{
+      "id": 1,
+      "label": "首页",
+      "key": "/index",
+      "pagepermisson": 1,
+      "grade": 1,
+      "pid": ""
+    },
+    {
+      "id": 2,
+      "label": "用户管理",
+      "key": "/user-manage",
+      "pagepermisson": 1,
+      "grade": 1,
+      "pid": ""
+    },
+    {
+      "id": 7,
+      "label": "权限管理",
+      "key": "/right-manage",
+      "pagepermisson": 1,
+      "grade": 1,
+      "pid": ""
+    },
+    {
+      "id": 14,
+      "label": "新闻管理",
+      "key": "/news-manage",
+      "pagepermisson": 1,
+      "grade": 1,
+      "pid": ""
+    },
+    {
+      "id": 3,
+      "label": "添加用户",
+      "pid": 2,
+      "key": "/user-manage/add",
+      "grade": 2
+    },
+    {
+      "id": 4,
+      "label": "删除用户",
+      "pid": 2,
+      "key": "/user-manage/delete",
+      "grade": 2
+    },
+    {
+      "id": 5,
+      "label": "修改用户",
+      "pid": 2,
+      "key": "/user-manage/update",
+      "grade": 2
+    },
+    {
+      "id": 6,
+      "label": "用户列表",
+      "pid": 2,
+      "key": "/user-manage/list",
+      "pagepermisson": 1,
+      "grade": 2
+    },
+    {
+      "id": 8,
+      "label": "角色列表",
+      "pid": 7,
+      "key": "/right-manage/role/list",
+      "pagepermisson": 1,
+      "grade": 2
+    },
+    {
+      "id": 9,
+      "label": "权限列表",
+      "pid": 7,
+      "key": "/right-manage/right/list",
+      "pagepermisson": 1,
+      "grade": 2
+    },
+    {
+      "id": 10,
+      "label": "修改角色",
+      "pid": 7,
+      "key": "/right-manage/role/update",
+      "grade": 2
+    },
+    {
+      "id": 11,
+      "label": "删除角色",
+      "pid": 7,
+      "key": "/right-manage/role/delete",
+      "grade": 2
+    },
+    {
+      "id": 12,
+      "label": "修改权限",
+      "pid": 7,
+      "key": "/right-manage/right/update",
+      "grade": 2
+    },
+    {
+      "id": 13,
+      "label": "删除权限",
+      "pid": 7,
+      "key": "/right-manage/right/delete",
+      "grade": 2
+    },
+    {
+      "id": 15,
+      "label": "新闻列表",
+      "pid": 14,
+      "key": "/news-manage/list",
+      "grade": 2,
+      "pagepermisson": 1
+    },
+    {
+      "id": 16,
+      "label": "撰写新闻",
+      "pid": 14,
+      "key": "/news-manage/add",
+      "grade": 2,
+      "pagepermisson": 1
+    }
+  ],
+  "msg": ""
+}
